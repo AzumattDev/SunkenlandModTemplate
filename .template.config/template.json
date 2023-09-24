@@ -1,0 +1,33 @@
+{
+    "author": "Azumatt",
+    "classifications": [
+      "Sunkenland Mod Template"
+    ],
+    "name": "SunkenlandModTemplate",
+    "identity": "Sunkenland.Mod.Template",
+    "shortName": "slmt",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "SunkenlandModTemplate",
+    "preferNameDirectory": "true",
+    "symbols": {
+      "AuthorName": {
+        "type": "parameter",
+        "description": "The name of the person that you want to call the author.",
+        "datatype": "string",
+        "defaultValue": "Azumatt",
+        "replaces": "{Azumatt}"
+      }
+    },
+    "sources": [
+      {
+        "modifiers": [
+          {
+            "exclude": [ ".git/**", ".idea/**", ".vs/**", "obj/**", "bin/**", "SunkenlandModTemplate.sln", "SunkenlandModTemplate.sln.DotSettings.user" ]
+          }
+        ]
+      }
+    ]
+  }
