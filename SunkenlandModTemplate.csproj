@@ -75,9 +75,6 @@
         <Reference Include="BepInEx">
             <HintPath>$(BepInExPath)\core\BepInEx.dll</HintPath>
         </Reference>
-        <Reference Include="Crest">
-            <HintPath>$(PublicizedAssembliesPath)\Crest_publicized.dll</HintPath>
-        </Reference>
         <Reference Include="Fusion.Addressables">
             <HintPath>$(PublicizedAssembliesPath)\Fusion.Addressables_publicized.dll</HintPath>
         </Reference>
